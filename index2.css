@@ -1,0 +1,14 @@
+.container{
+       display:flex;
+       flex-direction:row;
+       background-color:#;
+ }
+
+.container > div{
+    flex:1;
+    border: 2.5px solid #F64C72;
+    border-radius: 25px;
+    margin: 50px;
+}
+
+

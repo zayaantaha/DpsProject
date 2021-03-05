@@ -1,0 +1,30 @@
+.container> div {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  color: #ffeead;
+}
+
+.banner{
+    text-align: center;
+    font-family: "Yellowtail";
+    font-size: 1.5em;
+    color:F64C72;
+    padding:10px;
+}
+
+html, body {
+  margin: 5px;
+  background-color: #242582;
+}
+
+.container > .Home {
+    font-size: 1.5em;
+    color:#F64C72;
+}
+
+.container > .AboutUs {
+  color:#F64C72;
+  font-size: 1.5em;
+}
+
