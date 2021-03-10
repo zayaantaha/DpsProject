@@ -13,8 +13,7 @@
 }
 
 body{
-    background-color:#161C23;
-    font-family: 'Zilla Slab', serif;
+background-color:#161C23;
 }
 
 .Continue{

@@ -2,7 +2,9 @@
 .page{
     display:flex;
     flex-direction:column;
+    color:white;
 }
+
 .container{
     display:flex;
     flex-direction:row;
@@ -13,8 +15,7 @@
 }
 
 body{
-    background-color:#161C23;
-    font-family: 'Zilla Slab', serif;
+background-color:#161C23;
 }
 
 .Continue{
@@ -41,4 +42,26 @@ a{
 .Title{
     color: #31C774;
     font-family:"HeadLineA"
+}
+
+section {
+    max-width: 800px;
+    margin:20px auto;
+}
+
+section .small-description {
+    margin:10px 0;
+    font-style: italic;
+}
+
+section .description {
+    font-family: "georgia";
+    margin:15px 0;
+}
+
+.article-body .image {
+    width:100px;
+    margin:0;
+    padding:0;
+    border-radius:5px;
 }

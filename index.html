@@ -1,20 +1,41 @@
-<!DOCTYPE>
-
+<!doctype>
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-    <div class="page">
-        <nav class="container">
-            <div class="Title">Monuments of Kashmir</div>
-            <div class="Home"><a href="#">Home </a></div>
-            <div class="AboutUS"><a href="#">Contact Us </a></div>
-            <div class="Contact US"><a href="#"> About Us</a></div>
-        </nav>
-        <div class="Continue"><a href="Home.html">Home Page</a></div>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='./css/indez.css'/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id='sections'></div>
 
-    </div>
+    <template id='sectionTemplate'>
+      <section class='section'>
+	<header>
+          <h1 class='sectionName'></h1>
+          <div class='small-description'></div>
+        </header>
 
-    </body>
+        <div class='article-body'>
+          <img class='image'>
+     	  <div class='content description'>
+	  </div>
+	</div>
+
+        <footer>
+     	</footer>
+      </section>
+    </template>
+  </body>
+  <script type='text/javascript' src='./js/render.js'></script>
+  <script>
+    renderHomePage(
+	document.getElementById('sections'),
+	document.getElementById('sectionTemplate'),
+	'./data/home.json');
+    var sections = document.getElementById('sections');
+    wrapLayout(sections);
+  </script>
 </html>
+

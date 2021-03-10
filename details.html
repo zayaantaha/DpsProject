@@ -1,0 +1,30 @@
+<!doctype>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='./css/index.css'/>
+  </head>
+  <body>
+    <article id='mainArticle'>
+      <header>
+	<h1 class='articleName'></h1>
+	<div class='small-description'></div>
+      </header>
+
+      <div class='article-body'>
+	<img class='mainImage'/>
+	<div class='content description'>
+	</div>
+      </div>
+      
+      <footer>
+      </footer>
+    </article>
+  </body>
+  <script type='text/javascript' src='./js/render.js'></script>
+  <script>
+    var article = document.getElementById('mainArticle');
+    wrapLayout(article);
+    renderDetailsPage('./data/chashma_shahi.json');
+  </script>
+</html>

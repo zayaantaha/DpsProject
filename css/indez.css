@@ -1,0 +1,50 @@
+
+.page{
+    display:flex;
+    flex-direction:column;
+    color:#161C23;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding: 15px;
+    font-size: 1.5em;
+    color:#31C774;
+}
+
+a{
+    text-decoration: none;
+    font-family:'Titillium Web';
+    color:#161C23;
+    z-index:1;
+    position:relative;
+}
+
+.Title{
+    color: #283747;;
+    font-family:"HeadLineA"
+}
+
+section {
+    max-width: 800px;
+    margin:20px auto;
+}
+
+section .small-description {
+    margin:10px 0;
+    font-style: italic;
+}
+
+section .small-description {
+    font-family: "Anamatic SC";
+    margin:15px 0;
+}
+
+.article-body .image {
+    width:50%;
+    margin:0;
+    padding:0;
+    border-radius:5px;
+}

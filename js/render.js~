@@ -1,0 +1,14 @@
+
+function renderDetailsPage(fileName) {
+    const render = (json) => {
+	document.title = json.name;
+	document.querySelector('.small-description').innerHTML = json['small-description'];
+	document.querySelector('.detetails').innerHTML = json.details;
+	document.querySelector('.mainImage').src = json.image;
+    };
+    
+    fetch(fileName)
+	.then(response => response.json())
+	.then(json => render);
+};
+
