@@ -24,10 +24,60 @@ a{
 
 
 .Title{
-    color: #283747;;
-    font-family:"HeadLineA"
+    color: #283747;
+    font-family:"HeadLineA";
 }
 
+.navagation{
+    min-height: 100vh;
+    background: #283747;
+    position:fixed;
+    width: 60px;
+    height: 100%;
+    transition: 0.5s;
+    overflow:hidden;
+}
+
+.navagation.active{
+    width:100%;
+}
+
+.navagation ul{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.navagation ul li{
+    position:relative;
+    width:100%;
+    list-style: none;
+}
+
+.navagation ul li a{
+    position: relative;
+    display: block;
+    width:100%;
+    display: flex;
+    color: #fff;
+    font-size:24px;
+}
+
+.navagation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height:60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: no-wrap;
+}
+
+.deTitile{
+    color:black;
+    font-family:"HeadLineA";
+}
 section {
     max-width: 800px;
     margin:20px auto;
@@ -48,4 +98,13 @@ section .small-description {
     margin:0;
     padding:0;
     border-radius:5px;
+}
+
+.bar{
+    position:relative;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
 }

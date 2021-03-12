@@ -2,7 +2,26 @@
   <nav class="container">
     <div class="Title">Gardens of Kashmir</div>
     <div class="Home"><a href="index.html"><i style="font-size:24px" class="fa">&#xf015;</i></a></div>
-    <div class="bar"><a href="#"><i style="font-size:24px" class="fa">&#xf0c9;</i></a></div>
+    <div class="bar" onclick="toggleMenu()"><i style="font-size:24px" class="fa">&#xf0c9;</i></div>
+    <script type="text/javascript">
+      function toggleMenu(){
+	  let nav = document.querySelector('.navagation')
+	  let bar = document.querySelector('.bar')
+	  nav.classList.toggle('active');
+	  bar.classList.toggle('actice');
+      }
+    </script>
+    <div>
   </nav>
-  <div id='content'></div>
+  <div id='content'>
+    <div class='navagation'>
+      <ul>
+	<li>
+	  <a href="#">
+	    <span class="icon"></span>
+	    <span class="deTitle"><i class="fa fa-home" aria-hidden="true"></i></span>
+	  </a>
+	</li>
+    </div>
+  </div>
 </div>
