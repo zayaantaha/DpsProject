@@ -22,6 +22,7 @@ a{
     position:relative;
 }
 
+
 .Title{
     color: #283747;;
     font-family:"HeadLineA"
@@ -38,7 +39,7 @@ section .small-description {
 }
 
 section .small-description {
-    font-family: "Anamatic SC";
+    font-family: 'Shippori Mincho';
     margin:15px 0;
 }
 

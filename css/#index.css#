@@ -2,7 +2,9 @@
 .page{
     display:flex;
     flex-direction:column;
+    color:white;
 }
+
 .container{
     display:flex;
     flex-direction:row;
@@ -13,8 +15,7 @@
 }
 
 body{
-    background-color:#161C23;
-    font-family: 'Zilla Slab', serif;
+background-color:#161C23;
 }
 
 .Continue{
@@ -25,8 +26,6 @@ body{
     border-radius: 50px;
     padding:20px;
 }
-
-
 
 a{
     text-decoration: none;
@@ -44,3 +43,29 @@ a{
     color: #31C774;
     font-family:"HeadLineA"
 }
+
+article {
+    max-width: 800px;
+    margin:20px auto;
+}
+
+article .small-description {
+    margin:10px 0;
+    font-style: italic;
+}
+
+article .description {
+    font-family: "georgia";
+    margin:15px 0;
+}
+
+article .mainImage {
+    width:100%;
+    margin:0;
+    padding:0;
+    border-radius:5px;
+}
+bernie calls the shots
+
+
+
