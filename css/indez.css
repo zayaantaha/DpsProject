@@ -36,10 +36,12 @@ a{
     height: 100%;
     transition: 0.5s;
     overflow:hidden;
+    opacity:0;
 }
 
 .navagation.active{
     width:100%;
+    opacity:1;
 }
 
 .navagation ul{
