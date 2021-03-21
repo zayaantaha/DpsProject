@@ -2,56 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01fa1047-d25f-48d7-a7f8-bbd1bb50a29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/chashma_shahi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gardens/chashma_shahi/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/render.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/package-sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/cta-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/feature-icon-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/feature-icon-02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/feature-icon-03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/feature-icon-04.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/feature-icon-05.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/feature-icon-06.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/hero-back-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/hero-top-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/images/pricing-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/abstracts/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/abstracts/_include-media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/abstracts/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/abstracts/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/base/_helpers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/components/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/layout/_cta.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/layout/_features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/layout/_hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/layout/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/layout/_pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solid/src/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.#layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#layout.html#" beforeDir="false" afterPath="$PROJECT_DIR$/#layout.html#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.#index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChashmeShahi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/indez.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/indez.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +29,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1pI6AGc7cPAthJ9aW72bORvEXT2" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
